@@ -1,5 +1,10 @@
-class Main {
-  public static void main(String[] args) {
+import java.io.*;
+
+public class Practice {
+  static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+  static PrintStream out = System.out;
+
+  public static void main(String[] args) throws Exception {
     // This is a comment
     /*
      * Multiline
