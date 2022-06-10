@@ -21,11 +21,11 @@ section {
 }
 
 
-.about-me {
+.hero  {
     /* background-color: #0000ff; */
     background-image: linear-gradient(yellow, red);
     width: 100%;
-    height: 200px;
+    height: 500px;
 
 }
 
@@ -43,6 +43,20 @@ section {
 
 #main {
     box-shadow: 2px 2px 5px white;
+}
+
+.hero {
+    width: 100%;
+    background-color: #ff0000;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.hero-info {
+    background-color: #ff0000;
+    margin: 30px;
 }
 
 button {
@@ -79,6 +93,15 @@ footer {
 
 a {
     text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+a:active {
+    color: blue;
 }
 
 .logo {
@@ -98,4 +121,8 @@ li {
     margin: 15px 5px;
     text-transform: uppercase;
     font-size: 12px;
+}
+
+#name {
+      
 }
